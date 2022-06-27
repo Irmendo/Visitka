@@ -1,0 +1,40 @@
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-template-columns: 3fr 1fr;
+    background-color: rgb(47, 45, 52);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+header img {
+    height: 50px;
+}
+
+header button {
+    margin: 10px auto 10px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgb(47, 45, 52);
+    background-color: rgb(130, 200, 200);
+}
+
+.socials {
+    width: 75%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: rgb(47, 45, 52);
+    color: rgb(130, 200, 200);
+    text-align: center;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    height: 50px;
+    padding-top: 25px;
+}
