@@ -1,13 +1,138 @@
 footer {
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-evenly;
-    background-color: rgb(47, 45, 52);
-    color: rgb(130, 200, 200);
-    text-align: center;
-    width: 100%;
-    left: 0;
-    position: absolute;
+    flex-direction: column;
+    margin: 240px -8px -8px -8px;
+    background-color: #741cff;
+}
+
+.propositions {
+    margin-top: -150px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.proposition-info {
+    box-shadow: 2px 2px 5px 3px #0000000d;
+    background-color: white;
+    padding: 60px 0 0 50px;
+    height: 220px;
+    width: 700px;
+    border-radius: 4px;
+}
+
+.proposition-info h1 {
+    font-size: 52px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 0;
+}
+
+.proposition-info p {
+    color: rgba(0, 0, 0, 0.488);
+    font-size: 20px;    
+    text-align: left;
+}
+
+.name-phone {
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    padding: 30px 30px 0 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px #0000000d;
+}
+
+.name-phone input {
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
     height: 50px;
-    padding-top: 25px;
+    width: 250px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.name-phone input::placeholder {
+    color: rgba(128, 128, 128, 0.491);
+    padding-left: 40px;
+}
+
+.name-phone button {
+    margin-top: 30px;
+    height: 50px;
+    background-color: #3b63fc;
+    color: white;
+}
+
+.footer-bg {
+    color: white;
+    padding-top: 40px;
+}
+
+.footer-bg h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.footer-shortcuts {
+    font-weight: 500;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.ffbsvg {
+    height: 32px;
+}
+
+.ffbsvg1 {
+    fill: #741cff;
+}
+
+.ffbsvg2 {
+    fill: white;
+}
+
+.ffbsvg3 {
+    fill: white;
+}
+
+.finstsvg {
+    fill: #741cff;
+    height: 32px;
+}
+
+.finstsvg3 {
+    fill: white;
+}
+
+.finstsvg5 {
+    fill: white;
+}
+
+.fyoutubesvg {
+    fill: white;
+    height: 32px;
+}
+
+.fyoutubesvg1 {
+    fill: #741cff;
+}
+
+.fyoutubesvg2 {
+    fill: white;
+}
+
+.legacy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }

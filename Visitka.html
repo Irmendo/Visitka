@@ -4,107 +4,608 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>FED</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
     <header>
-        <div class="socials">
-            <a><img src="images/telegram.png"></a>
-            <a><img src="images/viber.png"></a>
-            <a><img src="images/whatsapp.png"></a>
-        </div>
-        <button>Leave request!</button>
+        <p class="initials-in-capitals">
+            AK
+        </p>
+        <nav>
+            <div class="header-shortcuts">
+                <a>
+                    About me
+                </a>
+                <a>
+                    Skills
+                </a>
+                <a>
+                    Project
+                </a>
+                <a>
+                    Experience
+                </a>
+                <a>
+                    Events
+                </a>
+            </div>
+            <div class="header-socials-icons">
+                <svg class="hfbsvg" viewBox="0 0 32 32">
+                    <path class="hfbsvg1" d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                    </path>
+                    <path class="hfbsvg2" d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                    </path>
+                    <path class="hfbsvg3" d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z">
+                    </path>
+                </svg>
+                <svg class="hinstsvg" viewBox="0 0 32 32">
+                    <g>
+                        <path class="hinstsvg1" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                        </path>
+                        <path class="hinstsvg2" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                        </path>
+                    </g>
+                    <path class="hinstsvg3" d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                    </path>
+                    <g>
+                        <path class="hinstsvg4" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                        </path>
+                        <path class="hinstsvg5" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                        </path>
+                    </g>
+                </svg>
+                <svg  class="hyoutubesvg" viewBox="0 0 32 32">
+                    <path class="hyoutubesvg1" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                        </path>
+                    <path class="hyoutubesvg2" d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                    </path>
+                    <path class="hyoutubesvg3" d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                    </path>
+                </svg>
+            </div>
+        </nav>
     </header>
-    <main>
-        <div class="image-and-description">
-            <div>
-                <img src="images/фото.jpg">
+
+    <section>
+        <div class="short-intro">
+            <div class="name">
+                Andrey Kravchenko
             </div>
-            <div class="description">
-                <p>Кравченко Андрей Александрович</p>
-                <p><strong>Предыдущее место работы:</strong> "Метинвест Диджитал"</p>
-                <p>Профессиональные навыки:
-                    <ul>
-                        <li>построение структуры базы</li>
-                        <li>разраотка алгоритмов</li>
-                        <li>устанение технических ошибок системы</li>
-                        <li>тестирование и отладка программного кода</li>
-                        <li>настройка автоматического преобразования данных</li>
-                        <li>оптимизация работы системы</li>
-                        <li>формирование технических и бизнес требований</li>
-                        <li>администрирование базы данных</li>
-                    </ul>
-                </p>
-                <p>Личныe качества:
-                    <ul>
-                        <li>стрессоустойчивость</li>
-                        <li>позитивность</li>
-                        <li>логичность</li>
-                        <li>работа на результат</li>
-                    </ul>
-                </p>
+            <div class="intro">
+                I’m a full-stack developer with great experience and passion for coding and building plain interfaces. I have a manic love for great high-loaded projects. Plus, I’m an easy-going person and fit in any team. I work remotely and save your budget on my workplace. So, if you have a complicated task, you’ve found the right person.
             </div>
+            <img src="./images/avatar.jpg" class="avatar">
         </div>
-        <div class="video">
-            <video src="video/video.mp4" controls></video>
+
+        <div class="skills">
+            <div class="skills-bg">
+                Skills
+            </div>
+            <div class="skill-blocks">
+                <div class="skill-block">
+                    <svg class="backend-svg" viewBox="0 0 100 100">
+                        <path d="M82,41a9.01,9.01,0,0,0-8.768,7H57.788a4.967,4.967,0,0,1-4.659-3.188L49.6,35.738A8.944,8.944,0,0,0,41.211,30H26.768a9,9,0,1,0,0,4H41.211a4.968,4.968,0,0,1,4.66,3.188L49.4,46.262A8.973,8.973,0,0,0,52.152,50,8.971,8.971,0,0,0,49.4,53.738l-3.53,9.075A4.967,4.967,0,0,1,41.211,66H26.768a9,9,0,1,0,0,4H41.211A8.943,8.943,0,0,0,49.6,64.262l3.53-9.075A4.967,4.967,0,0,1,57.788,52H73.232A9,9,0,1,0,82,41ZM18,37a5,5,0,1,1,5-5A5.006,5.006,0,0,1,18,37Zm0,36a5,5,0,1,1,5-5A5.006,5.006,0,0,1,18,73ZM82,55a5,5,0,1,1,5-5A5.006,5.006,0,0,1,82,55Z" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        Back-end Developer
+                    </h2>
+                    <p>
+                        Develop business logic and back-end system to support the product, create API, have vast experience with version control systems.
+                    </p>
+                    <h3>
+                        Languages:
+                    </h3>
+                    <p>
+                        PHP, Python, Ruby, Java, Perl
+                    </p>
+                    <h3>
+                        My Tools:
+                    </h3>
+                    <p>
+                        SAP BW
+                    </p>
+                    <p>
+                        MySQL
+                    </p>
+                    <p>
+                        Node JS
+                    </p>
+                </div>
+                <div class="skill-block">
+                    <svg class="backend-svg" viewBox="0 0 100 100">
+                        <path d="M82,41a9.01,9.01,0,0,0-8.768,7H57.788a4.967,4.967,0,0,1-4.659-3.188L49.6,35.738A8.944,8.944,0,0,0,41.211,30H26.768a9,9,0,1,0,0,4H41.211a4.968,4.968,0,0,1,4.66,3.188L49.4,46.262A8.973,8.973,0,0,0,52.152,50,8.971,8.971,0,0,0,49.4,53.738l-3.53,9.075A4.967,4.967,0,0,1,41.211,66H26.768a9,9,0,1,0,0,4H41.211A8.943,8.943,0,0,0,49.6,64.262l3.53-9.075A4.967,4.967,0,0,1,57.788,52H73.232A9,9,0,1,0,82,41ZM18,37a5,5,0,1,1,5-5A5.006,5.006,0,0,1,18,37Zm0,36a5,5,0,1,1,5-5A5.006,5.006,0,0,1,18,73ZM82,55a5,5,0,1,1,5-5A5.006,5.006,0,0,1,82,55Z" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        Back-end Developer
+                    </h2>
+                    <p>
+                        Develop business logic and back-end system to support the product, create API, have vast experience with version control systems.
+                    </p>
+                    <h3>
+                        Languages:
+                    </h3>
+                    <p>
+                        PHP, Python, Ruby, Java, Perl
+                    </p>
+                    <h3>
+                        My Tools:
+                    </h3>
+                    <p>
+                        SAP BW
+                    </p>
+                    <p>
+                        MySQL
+                    </p>
+                    <p>
+                        Node JS
+                    </p>
+                </div>
+                <div class="skill-block">
+                    <svg class="backend-svg" viewBox="0 0 100 100">
+                        <path d="M82,41a9.01,9.01,0,0,0-8.768,7H57.788a4.967,4.967,0,0,1-4.659-3.188L49.6,35.738A8.944,8.944,0,0,0,41.211,30H26.768a9,9,0,1,0,0,4H41.211a4.968,4.968,0,0,1,4.66,3.188L49.4,46.262A8.973,8.973,0,0,0,52.152,50,8.971,8.971,0,0,0,49.4,53.738l-3.53,9.075A4.967,4.967,0,0,1,41.211,66H26.768a9,9,0,1,0,0,4H41.211A8.943,8.943,0,0,0,49.6,64.262l3.53-9.075A4.967,4.967,0,0,1,57.788,52H73.232A9,9,0,1,0,82,41ZM18,37a5,5,0,1,1,5-5A5.006,5.006,0,0,1,18,37Zm0,36a5,5,0,1,1,5-5A5.006,5.006,0,0,1,18,73ZM82,55a5,5,0,1,1,5-5A5.006,5.006,0,0,1,82,55Z" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        Back-end Developer
+                    </h2>
+                    <p>
+                        Develop business logic and back-end system to support the product, create API, have vast experience with version control systems.
+                    </p>
+                    <h3>
+                        Languages:
+                    </h3>
+                    <p>
+                        PHP, Python, Ruby, Java, Perl
+                    </p>
+                    <h3>
+                        My Tools:
+                    </h3>
+                    <p>
+                        SAP BW
+                    </p>
+                    <p>
+                        MySQL
+                    </p>
+                    <p>
+                        Node JS
+                    </p>
+                </div>
+            </div>
+            <button class="cv">
+                Here is my CV
+            </button>
         </div>
-        <div class="works">
-            <div>
-                <img src="works/work1.webp">
-            </div>
-            <div>
-                <img src="works/work2.avif">
-            </div>
-            <div>
-                <img src="works/word-design-written-on-top-of-colorful-geometric-3d-shapes_2227-1663.webp">
-            </div>
-        </div>
-        <div class="request">
-            <h1>Request</h1>
+
+        <div class="projects">
+            <h1>
+                Projects
+            </h1>
             <p>
-                Type your name
+                Have a look at some of the rolled-out projects I'm proud of:
+            </p>
+            <div class="project-blocks">
+                <div class="project">
+                    <div class="project-preview">
+                        <img src="./works/wow.webp">
+                    </div>
+                    <div class="project-description">
+                        <h2>
+                            WowTaxi
+                        </h2>
+                        <p>
+                            UX design of the WowTaxi company's website, iOS and Android apps by creating easy-to-use and plain user experience for the customers.
+                        </p>
+                        <h3>
+                            View project
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-preview">
+                        <img src="./works/wow.webp">
+                    </div>
+                    <div class="project-description">
+                        <h2>
+                            WowTaxi
+                        </h2>
+                        <p>
+                            UX design of the WowTaxi company's website, iOS and Android apps by creating easy-to-use and plain user experience for the customers.
+                        </p>
+                        <h3>
+                            View project
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-preview">
+                        <img src="./works/wow.webp">
+                    </div>
+                    <div class="project-description">
+                        <h2>
+                            WowTaxi
+                        </h2>
+                        <p>
+                            UX design of the WowTaxi company's website, iOS and Android apps by creating easy-to-use and plain user experience for the customers.
+                        </p>
+                        <h3>
+                            View project
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h1>
+                Interested in working together?
+            </h1>
+            <p>
+                You can trust your project in my expert hands. I'm always eager to do something nice and complicated. Let's discuss all the features in a private conversation.
             </p>
             <div>
-                <input type="text" placeholder="Name, Second name">
+                <button>
+                    Contact me
+                </button>
             </div>
+        </div>
+
+        <div class="experiences">
+            <h1>
+                Experience
+            </h1>
+            <div class="experience-blocks">
+                <div class="experience">
+                    <div class="experience-year">
+                        2015
+                    </div>
+                    <div class="experience-info">
+                        <h2>
+                            MIT
+                        </h2>
+                        <p>
+                            Undergraduate Project in Computer Science and Engineering, A+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <div class="experience-year">
+                        2015
+                    </div>
+                    <div class="experience-info">
+                        <h2>
+                            MIT
+                        </h2>
+                        <p>
+                            Undergraduate Project in Computer Science and Engineering, A+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <div class="experience-year">
+                        2015
+                    </div>
+                    <div class="experience-info">
+                        <h2>
+                            MIT
+                        </h2>
+                        <p>
+                            Undergraduate Project in Computer Science and Engineering, A+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <div class="experience-year">
+                        2015
+                    </div>
+                    <div class="experience-info">
+                        <h2>
+                            MIT
+                        </h2>
+                        <p>
+                            Undergraduate Project in Computer Science and Engineering, A+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="achievements">
+            <div class="achievement-bg">
+                <h1>
+                    Achievements
+                </h1>
+            </div>
+            <div class="achievements-blocks">
+                <div class="achievement">
+                    <svg class="achievement-svg" viewBox="0 0 90 90">
+                        <path d="M59.6,70.5H31.5c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h28.1c1.1,0,2-0.9,2-2C61.6,71.4,60.7,70.5,59.6,70.5z M77.2,20.1   c-0.2-0.9-1-1.6-2-1.6h-9.8v-2c0-1.1-0.9-2-2-2h-36c-1.1,0-2,0.9-2,2v2H16c-0.9,0-1.8,0.7-2,1.6c-0.1,0.3-1.4,7.3,2.5,12.1   c2.2,2.7,5.7,4.2,10.2,4.3c2.6,7.6,9,13.2,16.8,14v13.9h-6c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h16.2c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2   h-6.2V50.5c7.8-0.8,14.2-6.4,16.8-14c4.6-0.1,8.2-1.5,10.5-4.3C78.6,27.4,77.3,20.4,77.2,20.1z M19.7,29.7   c-1.8-2.2-1.9-5.3-1.9-7.2h7.7v6.8c0,1.1,0.1,2.1,0.2,3.2C23,32.2,21,31.3,19.7,29.7z M61.5,29.3c0,9.6-7.2,17.4-16,17.4   c-8.8,0-16-7.8-16-17.4V18.5h32V29.3z M71.6,29.7c-1.4,1.7-3.5,2.6-6.4,2.8c0.1-1,0.3-2.1,0.3-3.2v-6.8h8   C73.6,24.3,73.4,27.5,71.6,29.7z" style="" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        DoeWeb
+                    </h2>
+                    <p>
+                        <strong>
+                            Employee of the month.
+                        </strong><br>
+                        Though I was only an intern, I was highly praised at work and given promotion.
+                    </p>
+                </div>
+
+                <div class="achievement">
+                    <svg class="achievement-svg" viewBox="0 0 90 90">
+                        <path d="M59.6,70.5H31.5c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h28.1c1.1,0,2-0.9,2-2C61.6,71.4,60.7,70.5,59.6,70.5z M77.2,20.1   c-0.2-0.9-1-1.6-2-1.6h-9.8v-2c0-1.1-0.9-2-2-2h-36c-1.1,0-2,0.9-2,2v2H16c-0.9,0-1.8,0.7-2,1.6c-0.1,0.3-1.4,7.3,2.5,12.1   c2.2,2.7,5.7,4.2,10.2,4.3c2.6,7.6,9,13.2,16.8,14v13.9h-6c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h16.2c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2   h-6.2V50.5c7.8-0.8,14.2-6.4,16.8-14c4.6-0.1,8.2-1.5,10.5-4.3C78.6,27.4,77.3,20.4,77.2,20.1z M19.7,29.7   c-1.8-2.2-1.9-5.3-1.9-7.2h7.7v6.8c0,1.1,0.1,2.1,0.2,3.2C23,32.2,21,31.3,19.7,29.7z M61.5,29.3c0,9.6-7.2,17.4-16,17.4   c-8.8,0-16-7.8-16-17.4V18.5h32V29.3z M71.6,29.7c-1.4,1.7-3.5,2.6-6.4,2.8c0.1-1,0.3-2.1,0.3-3.2v-6.8h8   C73.6,24.3,73.4,27.5,71.6,29.7z" style="" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        DoeWeb
+                    </h2>
+                    <p>
+                        <strong>
+                            Employee of the month.
+                        </strong><br>
+                        Though I was only an intern, I was highly praised at work and given promotion.
+                    </p>
+                </div>
+
+                <div class="achievement">
+                    <svg class="achievement-svg" viewBox="0 0 90 90">
+                        <path d="M59.6,70.5H31.5c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h28.1c1.1,0,2-0.9,2-2C61.6,71.4,60.7,70.5,59.6,70.5z M77.2,20.1   c-0.2-0.9-1-1.6-2-1.6h-9.8v-2c0-1.1-0.9-2-2-2h-36c-1.1,0-2,0.9-2,2v2H16c-0.9,0-1.8,0.7-2,1.6c-0.1,0.3-1.4,7.3,2.5,12.1   c2.2,2.7,5.7,4.2,10.2,4.3c2.6,7.6,9,13.2,16.8,14v13.9h-6c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h16.2c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2   h-6.2V50.5c7.8-0.8,14.2-6.4,16.8-14c4.6-0.1,8.2-1.5,10.5-4.3C78.6,27.4,77.3,20.4,77.2,20.1z M19.7,29.7   c-1.8-2.2-1.9-5.3-1.9-7.2h7.7v6.8c0,1.1,0.1,2.1,0.2,3.2C23,32.2,21,31.3,19.7,29.7z M61.5,29.3c0,9.6-7.2,17.4-16,17.4   c-8.8,0-16-7.8-16-17.4V18.5h32V29.3z M71.6,29.7c-1.4,1.7-3.5,2.6-6.4,2.8c0.1-1,0.3-2.1,0.3-3.2v-6.8h8   C73.6,24.3,73.4,27.5,71.6,29.7z" style="" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        DoeWeb
+                    </h2>
+                    <p>
+                        <strong>
+                            Employee of the month.
+                        </strong><br>
+                        Though I was only an intern, I was highly praised at work and given promotion.
+                    </p>
+                </div>
+
+                <div class="achievement">
+                    <svg class="achievement-svg" viewBox="0 0 90 90">
+                        <path d="M59.6,70.5H31.5c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h28.1c1.1,0,2-0.9,2-2C61.6,71.4,60.7,70.5,59.6,70.5z M77.2,20.1   c-0.2-0.9-1-1.6-2-1.6h-9.8v-2c0-1.1-0.9-2-2-2h-36c-1.1,0-2,0.9-2,2v2H16c-0.9,0-1.8,0.7-2,1.6c-0.1,0.3-1.4,7.3,2.5,12.1   c2.2,2.7,5.7,4.2,10.2,4.3c2.6,7.6,9,13.2,16.8,14v13.9h-6c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h16.2c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2   h-6.2V50.5c7.8-0.8,14.2-6.4,16.8-14c4.6-0.1,8.2-1.5,10.5-4.3C78.6,27.4,77.3,20.4,77.2,20.1z M19.7,29.7   c-1.8-2.2-1.9-5.3-1.9-7.2h7.7v6.8c0,1.1,0.1,2.1,0.2,3.2C23,32.2,21,31.3,19.7,29.7z M61.5,29.3c0,9.6-7.2,17.4-16,17.4   c-8.8,0-16-7.8-16-17.4V18.5h32V29.3z M71.6,29.7c-1.4,1.7-3.5,2.6-6.4,2.8c0.1-1,0.3-2.1,0.3-3.2v-6.8h8   C73.6,24.3,73.4,27.5,71.6,29.7z" style="" fill="currentColor">
+                        </path>
+                    </svg>
+                    <h2>
+                        DoeWeb
+                    </h2>
+                    <p>
+                        <strong>
+                            Employee of the month.
+                        </strong><br>
+                        Though I was only an intern, I was highly praised at work and given promotion.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="events">
+            <h1>
+                Events With Me
+            </h1>
             <p>
-                How I can contact you
+                I regularly take part in talks, forums, conferences and panel discussions to share experience, communicate with colleagues and find new opportunities. So you can always say hi!
             </p>
-            <div>
-                <input type="text" placeholder="Contacts">
+            <div class="events-blocks">
+                <div class="event">
+                    <h4>
+                        Conference
+                    </h4>
+                    <h2>
+                        WebDev Conference
+                    </h2>
+                    <h3>
+                        08 July Friday
+                    </h3>
+                    <p>
+                        Global Arena, San Francisco
+                        <br>
+                        09:00 - 18:00
+                    </p>
+                    <button>
+                        Attend Event
+                    </button>
+                </div>
+
+                <div class="event">
+                    <h4>
+                        Conference
+                    </h4>
+                    <h2>
+                        WebDev Conference
+                    </h2>
+                    <h3>
+                        08 July Friday
+                    </h3>
+                    <p>
+                        Global Arena, San Francisco
+                        <br>
+                        09:00 - 18:00
+                    </p>
+                    <button>
+                        Attend Event
+                    </button>
+                </div>
+
+                <div class="event">
+                    <h4>
+                        Conference
+                    </h4>
+                    <h2>
+                        WebDev Conference
+                    </h2>
+                    <h3>
+                        08 July Friday
+                    </h3>
+                    <p>
+                        Global Arena, San Francisco
+                        <br>
+                        09:00 - 18:00
+                    </p>
+                    <button>
+                        Attend Event
+                    </button>
+                </div>
             </div>
-            <p>
-                What is most suitable time for call for you?
-            </p>
-            <div>
-                <input type="text" placeholder="Call time">
+        </div>
+
+        <div class="recalls">
+            <h1>
+                Warm Words From My Colleagues
+            </h1>
+            <div class="recalls-blocks">
+                <div class="recall">
+                    <div class="recall-avatar">
+                        <img src="./images/recallava.webp">
+                        <h2>
+                            Fred M.
+                        </h2>
+                        <p>
+                            Team Lead, DoeWeb
+                        </p>
+                    </div>
+                    <div class="recall-info">
+                        <p>
+                            Alex is a really talented guy with strong knowledge in different web development areas. He likes complicated tasks and enjoys solving them. Under my mentoring, Alex quickly became a strong middle developer, so I am proud of his success. I wish Alex all the best and further rapid development!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recall">
+                    <div class="recall-avatar">
+                        <img src="./images/recallava.webp">
+                        <h2>
+                            Fred M.
+                        </h2>
+                        <p>
+                            Team Lead, DoeWeb
+                        </p>
+                    </div>
+                    <div class="recall-info">
+                        <p>
+                            Alex is a really talented guy with strong knowledge in different web development areas. He likes complicated tasks and enjoys solving them. Under my mentoring, Alex quickly became a strong middle developer, so I am proud of his success. I wish Alex all the best and further rapid development!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recall">
+                    <div class="recall-avatar">
+                        <img src="./images/recallava.webp">
+                        <h2>
+                            Fred M.
+                        </h2>
+                        <p>
+                            Team Lead, DoeWeb
+                        </p>
+                    </div>
+                    <div class="recall-info">
+                        <p>
+                            Alex is a really talented guy with strong knowledge in different web development areas. He likes complicated tasks and enjoys solving them. Under my mentoring, Alex quickly became a strong middle developer, so I am proud of his success. I wish Alex all the best and further rapid development!
+                        </p>
+                    </div>
+                </div>
             </div>
-            <p>
-                What we will discuss?
-            </p>
-            <div>
-                <input type="text" placeholder="Call goal">
+        </div>
+
+        <footer>
+            <div class="propositions">
+                <div class="proposition-info">
+                    <h1>
+                        Any Propositions?
+                    </h1>
+                    <p>
+                        Complete the form and let's have a talk on your project!
+                    </p>
+                </div>
+                <div class="name-phone">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone number">
+                    <button>
+                        Start Conversation
+                    </button>
+                </div>
             </div>
-            <button>Leave request</button>
-        </div>
-    </main>
-    <footer>
-        <div>
-            Privacy Policy
-        </div>
-        <div>
-            Terms
-        </div>
-        <div>
-            All rights reserved
-        </div>
-    </footer>
-    
+            <div class="footer-bg">
+                <h2>
+                    Andrey Kravchenko
+                </h2>
+                <div class="footer-shortcuts">
+                    <a>
+                        About me
+                    </a>
+                    <a>
+                        Skills
+                    </a>
+                    <a>
+                        Project
+                    </a>
+                    <a>
+                        Experience
+                    </a>
+                    <a>
+                        Events
+                    </a>             
+                </div>
+                <div class="footer-social-icons">
+                    <svg class="ffbsvg" viewBox="0 0 32 32">
+                        <path class="ffbsvg1" d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                        </path>
+                        <path class="ffbsvg2" d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                        </path>
+                        <path class="ffbsvg3" d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z">
+                        </path>
+                    </svg>
+                    <svg class="finstsvg" viewBox="0 0 32 32">
+                        <g>
+                            <path class="finstsvg1" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                            </path>
+                            <path class="finstsvg2" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                            </path>
+                        </g>
+                        <path class="finstsvg3" d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                        </path>
+                        <g>
+                            <path class="finstsvg4" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                            </path>
+                            <path class="finstsvg5" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                            </path>
+                        </g>
+                    </svg>
+                    <svg class="fyoutubesvg" viewBox="0 0 32 32">
+                        <path class="fyoutubesvg1" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                            </path>
+                        <path class="fyoutubesvg2" d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                        </path>
+                        <path class="fyoutubesvg3" d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="legacy">
+                    <p>
+                        © Created by
+                    </p>
+                    <p>
+                        All rights Reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>

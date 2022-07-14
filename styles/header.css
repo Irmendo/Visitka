@@ -1,40 +1,84 @@
 header {
-    height: 70px;
-    width: 100%;
-    position: fixed;
     display: flex;
     flex-direction: row;
+    padding: 30px 40px 30px 40px;
     justify-content: space-between;
-    grid-template-columns: 3fr 1fr;
-    background-color: rgb(47, 45, 52);
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 50;
 }
 
-header img {
-    height: 50px;
-}
-
-header button {
-    margin: 10px auto 10px auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
-    border-style: none;
+.initials-in-capitals {
+    color: #3c65ff;
+    font-size: 42px;
     font-weight: 500;
-    font-family: Roboto;
-    font-size: 20px;
-    color: rgb(47, 45, 52);
-    background-color: rgb(130, 200, 200);
+    margin: 0;
 }
 
-.socials {
-    width: 75%;
-    padding: 0 20px 0 20px;
+nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 510px;
+}
+
+.header-shortcuts {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-socials-icons {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hfbsvg {
+    height: 32px;
+}
+
+.hfbsvg1 {
+    fill: white;
+}
+
+.hfbsvg2 {
+    fill: #3c65ff;
+}
+
+.hfbsvg3 {
+    fill: #3c65ff;
+}
+
+.hinstsvg {
+    fill: white;
+    height: 32px;
+}
+
+.hinstsvg3 {
+    fill: #3c65ff;
+}
+
+.hinstsvg5 {
+    fill: #3c65ff;
+}
+
+.hinst img {
+    border: 1px solid black;
+    border-radius: 16px;
+    height: 32px;
+}
+
+.hyoutubesvg {
+    fill: #3c65ff;
+    height: 32px;
+}
+
+.hyoutubesvg1 {
+    fill: white;
+}
+
+.hyoutubesvg2 {
+    fill: #3c65ff;
 }
